@@ -2,7 +2,7 @@
     font-size: 44.55px;
     line-height: 52.9px;
     text-align: center;
-
+    padding: 22px;
 }
 
 .get-demo{
@@ -26,6 +26,7 @@
 }
 
 .footer{
+    padding: 45px 0 45px 0;
     justify-content: space-around;
     display: flex;
     background-color: #263238;
@@ -42,18 +43,15 @@
 .right-footer a{
     color: #F5F7FA;
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
 }
 
-.list h2{
-    font-size: 14px;
-    line-height: 19.5px;
-    font-weight: bold;
-}
 
 .list{
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 9px;
 }
 
 .social-network{
@@ -71,4 +69,64 @@
 .logo{
     color: white;
     font-size: 20px;
+}
+
+.get-demo{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 22px;
+}
+
+.link h3{
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 15px;    
+}
+
+.link a{
+    color: #F5F7FA;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.link-item{
+    display: flex;
+    gap: 40px;
+}
+
+.right-footer{
+    display: flex;
+    gap: 20px;
+}
+
+.right-footer input{
+    border-radius: 20px;
+    border: none;
+    color: #717171;
+}
+
+.mail h3{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #89939E;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.left-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
 }
