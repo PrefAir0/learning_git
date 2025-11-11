@@ -1,0 +1,150 @@
+ul {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    margin-right: auto;
+    width: 200px;
+}
+
+.chelovek {
+    width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.welcome {
+    background-color: white;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    min-height: 800px;
+    position: relative;
+}
+
+.welcome-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.text-content {
+    flex: 1;
+    max-width: 600px;
+}
+
+.tupoitext {
+    font-size: 70px;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+.tupoitext span {
+    color: #4CAF4F;
+}
+
+.tupoitext_pomenshe {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.tupaia_knopka {
+    margin-top: 20px;
+}
+
+.dots {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+}
+
+.clients {
+    text-align: center;
+    padding: 90px 20px;
+    background-color: #ffffff;
+}
+
+.clients h1 {
+    margin-bottom: 20px;
+}
+
+.clients_logos {
+    max-width: 1200px;
+    margin: 50px auto 0;
+    display: block;
+    width: 100%;
+}
+
+.manage {
+    text-align: center;
+    padding: 90px 20px;
+}
+
+.manage h1 {
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 50px auto 0;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card h3 {
+    margin: 20px 0 15px;
+}
+
+.card p {
+    text-align: center;
+    line-height: 1.5;
+}
+
+button {
+    background-color: #4CAF4F;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.header {
+    width: 100%;
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
